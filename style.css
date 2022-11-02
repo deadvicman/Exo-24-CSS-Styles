@@ -1,1 +1,48 @@
+tbody .produit{
+    color: coral;
+    font-style: italic;
+}
+tbody .reference{
+    color: black;
+    font-style: italic;
+}
+tbody .general{
+    color: blue;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+#trois p{
+    color: blue;
+    font-size: small;
+    background-color: lightgrey;
 
+}
+#un h3{
+    color: red;
+    text-transform: uppercase;
+}
+blockquote p::first-letter{
+    color:green;
+    font-weight: bold;
+    font-family: fantasy;
+}
+body{
+    font-family: Verdana, Arial, sans-serif;
+    background-color: white;
+}
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+    text-decoration-line: underline;
+}
+table .produit  {
+    font-variant-caps: small-caps;
+}
+.reference td{
+    background-color: lightgrey;
+}
+blockquote p{
+    text-indent: 20px;
+}
+.produit th{
+    text-transform: capitalize;
+}
